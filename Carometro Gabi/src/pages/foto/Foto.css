@@ -1,0 +1,64 @@
+.fundoFoto{
+    display: flex;
+    align-items: center;
+    background-image: url("../../images/mulher.jpg");
+    width: 100vw;
+    height: 92vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.metade1{
+    width: 50vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.metade2{
+    width: 50vw;
+}
+
+
+
+.caixaFoto{
+    -webkit-box-shadow: -1px 1px 221px -20px rgba (0,0,0,0,75);
+    -moz-box-shadow: -1px 1px 221px -20px rgba (0,0,0,0,75);
+    box-shadow: -1px 1px 221px -20px rgba (0,0,0,0,75);
+    background-color: #D9D9D9;
+    width: 90vh;
+    height: 85vh;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.imgUpload{
+    padding-top: 30vw;
+    position: relative;
+}
+
+.imgUpload img{
+    width: 85vh;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    width: 15vh;
+    height: 15vh;
+
+}
+
+.certoErrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgC{
+    width: 30vh;
+    height: 30vh;
+}
+
+.imgE{
+    width: 20vh;
+    height: 20vh;
+}
