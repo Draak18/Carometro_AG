@@ -1,24 +1,36 @@
-header{
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   width: 100vw;
   height: 8vh;
-
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 
-header div{
+header div {
   display: flex;
-  gap: 8px;
+  gap: 40px;
+  padding-left: 20px;
 }
 
 header div a {
+  font-family: "Montserrat";
+  font-size: 17px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-header div a:hover{
+header div a:hover {
   text-decoration: underline;
+}
+
+.logo img{
+  width: 150px;
+  height: 40px;
+  padding-right: 20px;
 }

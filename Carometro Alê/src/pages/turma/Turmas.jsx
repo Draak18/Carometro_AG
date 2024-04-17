@@ -1,13 +1,13 @@
 import Header from "../../components/header/Header.jsx";
-import "./Dashboard.css";
+import "./Turmas.css";
 
-function Dashboard() {
+function Turmas() {
   return (
     <div>
       <Header />
-      <h1>Dashboard</h1>
+      <h1>Turmas</h1>
     </div>
   );
 }
 
-export default Dashboard;
+export default Turmas;

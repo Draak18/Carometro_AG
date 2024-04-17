@@ -1,4 +1,9 @@
-.fundoHome{
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../components/fonts/Montserrat/Montserrat-BoldItalic.ttf);
+}
+
+.fundoHome {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,9 +14,11 @@
   background-repeat: no-repeat;
 }
 
-#carometroTitulo{
-  font-size: 120px;
-  font-weight: 700;
+#carometroTitulo {
+  font-family: "Montserrat";
+  font-size: 150px;
+  letter-spacing: 25px;
   text-align: center;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
