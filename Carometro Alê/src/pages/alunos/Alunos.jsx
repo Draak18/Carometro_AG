@@ -1,13 +1,13 @@
 import Header from "../../components/header/Header.jsx";
-import "./Foto.css";
+import "./Alunos.css";
 
-function Foto() {
+function Alunos() {
   return (
     <div>
       <Header />
-      <h1>Foto</h1>
+      <h1>Alunos</h1>
     </div>
   );
 }
 
-export default Foto;
+export default Alunos;
