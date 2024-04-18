@@ -4,6 +4,7 @@ import Turmas from "./pages/turma/Turmas";
 import Login from "./pages/login/Login";
 import Alunos from "./pages/alunos/Alunos";
 import Foto from "./pages/foto/Foto";
+import Cadastro from "./pages/cadastro/Cadastro";
 
 function MainRoutes() {
   return (
@@ -13,7 +14,8 @@ function MainRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/alunos" element={<Alunos />} />
       <Route path="/foto" element={<Foto />} />
-      </Routes>
+      <Route path="/cadastro" element={<Cadastro />} />
+    </Routes>
   );
 }
 

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../images/mulher.jpg");
+  background-image: url("../images/mulher.jpg");
   width: 100vw;
   height: 92vh;
   background-size: cover;
