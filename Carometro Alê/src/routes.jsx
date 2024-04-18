@@ -13,7 +13,7 @@ function MainRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/alunos" element={<Alunos />} />
       <Route path="/foto" element={<Foto />} />
-    </Routes>
+      </Routes>
   );
 }
 
