@@ -13,16 +13,11 @@ function Foto() {
           <div className="caixaFoto">
             <div className="imgUpload">
               <img className="centralizar" src={imgUpload} />
-              
             </div>
             <div className="certoErrado">
-                <div className="imagemContainer">
-                  <img className="imgC" src={imgCerto} />
-                </div>
-                <div className="imagemContainer">
-                  <img className="imgE" src={imgErrado} />
-                </div>
-              </div>
+              <img className="imgC" src={imgCerto} />
+              <img className="imgE" src={imgErrado} />
+            </div>
           </div>
         </div>
         <div className="metade2">
@@ -33,3 +28,6 @@ function Foto() {
 }
 
 export default Foto;
+
+
+
