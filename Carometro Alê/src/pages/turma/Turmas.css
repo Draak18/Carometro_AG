@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Montserrat-Normal";
+  src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+.fundoTurmas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #1d1d1d;
+}
+
+.idevs,
+.elecs,
+.imecs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat-Normal";
+  color: white;
+}
+
+#tituloSalas {
+  margin: 15px;
+}
+
+.salasIdev,
+.salasElec,
+.salasImec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.IDEV1,
+.IDEV2,
+.IDEV3 {
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+  height: 25vw;
+  margin: 10px;
+  background-color: blue;
+}
+
+.ELEC1,
+.ELEC2,
+.ELEC3 {
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+  height: 25vw;
+  margin: 10px;
+  background-color: blue;
+}
+
+.IMEC1,
+.IMEC2,
+.IMEC3 {
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+  height: 25vw;
+  margin: 10px;
+  background-color: blue;
+}

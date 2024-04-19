@@ -1,5 +1,5 @@
 import Header from "../../components/header/Header.jsx";
-import "../../style/Home.css";
+import "./Home.css";
 
 function Home() {
   return (
