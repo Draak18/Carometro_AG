@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Cadastro.css";
 
 function Cadastro() {
@@ -6,9 +7,8 @@ function Cadastro() {
       <div className="caixaCadastro">
         <div className="separar">
           <div className="colocarFoto">
-              <h1>COLOQUE SUA FOTO</h1>
-            <div className="addsuaFOTO">
-            </div>
+            <h1>COLOQUE SUA FOTO</h1>
+            <div className="addsuaFOTO"></div>
           </div>
           <div className="cadastroFormulario">
             <div className="tituloCadastro">
@@ -54,9 +54,11 @@ function Cadastro() {
                 />
               </div>
               <div className="botoesCadastro">
-                <button onclick="cadastrar" type="button">
-                  Cadastre-se
-                </button>
+                <Link to="/">
+                  <button onclick="cadastrar" type="button">
+                    Cadastre-se
+                  </button>
+                </Link>
               </div>
             </form>
           </div>

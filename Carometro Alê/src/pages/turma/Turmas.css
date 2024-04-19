@@ -7,18 +7,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 98.9vw;
   background-color: #1d1d1d;
 }
 
 .idevs,
-.elecs,
-.imecs {
+.ecs {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat-Normal";
-  color: white;
+  color: #e0e0e0;
 }
 
 #tituloSalas {
@@ -26,41 +25,30 @@
 }
 
 .salasIdev,
-.salasElec,
-.salasImec {
+.salasEc {
   display: flex;
   justify-content: space-between;
 }
 
 .IDEV1,
 .IDEV2,
-.IDEV3 {
+.IDEV3,
+.EC1,
+.EC2,
+.EC3 {
   display: flex;
   justify-content: space-between;
   width: 25vw;
-  height: 25vw;
-  margin: 10px;
-  background-color: blue;
+  height: 45vw;
+  margin: 12px;
+  background-color: #e0e0e0;
 }
 
-.ELEC1,
-.ELEC2,
-.ELEC3 {
-  display: flex;
-  justify-content: space-between;
+.imagemFenix img,
+.imagemLobao img,
+.imagemFds img,
+.imagemTigrao img,
+.imagemPerereca img {
   width: 25vw;
   height: 25vw;
-  margin: 10px;
-  background-color: blue;
-}
-
-.IMEC1,
-.IMEC2,
-.IMEC3 {
-  display: flex;
-  justify-content: space-between;
-  width: 25vw;
-  height: 25vw;
-  margin: 10px;
-  background-color: blue;
 }
