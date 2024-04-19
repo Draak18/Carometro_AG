@@ -1,47 +1,66 @@
-@font-face {
-  font-family: "Montserrat";
-  src: url(../../components/fonts/Montserrat/Montserrat-BoldItalic.ttf);
-}
-
-.fundo {
+.fundoCadastro {
   width: 100vw;
-  height: 92vh;
-  background-image: url("./../../images/fundoLogin.jpg");
+  height: 100vh;
+  background-image: url(./../../images/fundoLogin.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.caixaLogin {
+.separar {
+  display: flex;
+  align-items: center;
+}
+
+.colocarFoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat";
+  color: #db261d;
+}
+
+.addsuaFOTO {
+  width: 30vw;
+  height: 40vh;
+  background-color: blue;
+}
+
+.caixaCadastro {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 170vh;
-  height: 85vh;
-  margin-right: 6vh;
+  width: 210vh;
+  height: 95vh;
   background-color: #e0e0e0;
   border-radius: 4vh;
 }
 
-.informacoes {
+.informacoesCadastro {
   margin: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.titulo {
+.tituloCadastro {
+  display: flex;
+  justify-content: center;
   font-size: 35px;
   font-family: "Montserrat";
   letter-spacing: 2.5px;
   color: #db261d;
 }
 
-#nome,
-#email,
-#senha {
+#nomeCadastro,
+#emailCadastro,
+#senhaCadastro,
+#cpfCadastro,
+#telefoneCadastro,
+#confirmeSenhaCadastro {
   font-size: 15px;
   font-family: "Montserrat";
   color: rgba(255, 255, 255, 0.755);
@@ -49,14 +68,17 @@
   width: 85vh;
   height: 8vh;
   border-radius: 4px;
-  margin: 15px;
+  margin: 10px;
   border: 0;
   padding-left: 15px;
 }
 
-#nome input,
-#email input,
-#senha input,
+#nomeCadastro input,
+#cpfCadastro input,
+#telefoneCadastro input,
+#emailCadastro input,
+#senhaCadastro input,
+#confirmeSenhaCadastro input,
 ::-webkit-input-placeholder,
 :focus {
   font-family: "Montserrat";
@@ -69,12 +91,12 @@
   padding-left: 10px;
 }
 
-.botoes {
+.botoesCadastro {
   display: flex;
   justify-content: space-around;
 }
 
-.botoes button {
+.botoesCadastro button {
   color: white;
   width: 25vh;
   height: 4vh;
@@ -84,12 +106,4 @@
   border: 0;
   border-radius: 6px;
   cursor: pointer;
-}
-
-.celularSENAI {
-  display: flex;
-  padding-left: 25vh;
-  width: 75vh;
-  height: 85vh;
-  z-index: 2;
 }

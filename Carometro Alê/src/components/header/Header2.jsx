@@ -2,10 +2,10 @@
 import { Link } from "react-router-dom";
 
 // Import de CSS
-import "./Header.css";
+import "./Header2.css";
 import Logo from "./../../images/logoSenai.jfif";
 
-function Header() {
+function Header2() {
   return (
     <header>
       <div>
@@ -23,4 +23,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header2;
