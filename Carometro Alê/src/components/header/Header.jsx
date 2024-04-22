@@ -14,7 +14,6 @@ function Header() {
         <Link to="/turmas">Turmas</Link>
         <Link to="/alunos">Alunos</Link>
         <Link to="/login">Login</Link>
-        <Link to="/foto">Tirar Foto</Link>
       </div>
       <div className="logo">
         <img src={Logo} alt="" />
