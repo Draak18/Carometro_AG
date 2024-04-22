@@ -25,11 +25,14 @@ header div a {
   color: black;
 }
 
-header div a:hover {
+header div a:hover,
+header div a:visited,
+header div a:active {
   text-decoration: underline;
+  color: black;
 }
 
-.logo img{
+.logo img {
   width: 150px;
   height: 40px;
   padding-right: 20px;
