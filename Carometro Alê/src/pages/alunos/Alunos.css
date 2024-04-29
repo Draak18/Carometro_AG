@@ -1,66 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #1d1d1d;
+@font-face {
+  font-family: "Montserrat-Normal";
+  src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
-
-
-.tituloPesquisa{
-    height: 30vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+body {
+  background-color: #1d1d1d;
 }
 
-.tituloAlunos{
-    color: white;
-    font-size: 200%;
+.tituloPesquisa {
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.pesquisa input{
-    background-color: #d9d9d9;
-    width: 35vw;
-    height: 6vh;
-    border-radius: 30px;
+.tituloAlunos {
+  color: white;
+  font-size: 200%;
+  margin-bottom: 25px;
+  font-family: "Montserrat-Normal";
+}
+
+.pesquisa {
+  display: flex;
+  justify-self: center;
+}
+
+.pesquisa input  {
+  background-color: #d9d9d9;
+  width: 35vw;
+  height: 6vh;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #1d1d1d;
+  border: none;
+  box-shadow: none;
+  padding-left: 15px;
+  font-family: "Montserrat-Normal";
+}
+
+.pesquisa input::placeholder{
     color: #1d1d1d;
-    border: none;
-    box-shadow: none;
-    padding-left: 10px; 
 }
-
-
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
-.rostoAlunos{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+.rostoAlunos {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.consultarBotao {
+  justify-content: flex-end;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-left: none;
+  background-color: #d9d9d9;
+  border: none;
+  cursor: pointer;
+}
+.lupaImg {
+  width: 4vh;
+  height: 4vh;
+  margin-right: 12px;
+  display: flex;
+}
 
-}
-.consultarBotao{
-    justify-content: flex-end;
-}
-.lupaImg{
-    width: 5vh;
-    height: 5vh;
-    display: flex;
-    margin-top: 10px;
-}
-
-.aluno{
-    margin-left: 10px;
-    width: 20vw;
-    height: 40vh;
-    background-color: azure;
-    margin-top: 20px;
-    display: flex;
+.aluno {
+  margin-left: 10px;
+  width: 20vw;
+  height: 40vh;
+  background-color: azure;
+  margin-top: 20px;
+  display: flex;
 }
