@@ -1,15 +1,14 @@
-import { useState } from "react";
+import Header from "../../components/header/Header.jsx";
 import "./Home.css";
 
 function Home() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <p1>macaco</p1>
+    <div>
+      <Header />
+      <div className="fundoHome">
+        <p id="carometroTitulo">CARÔMETRO</p>
       </div>
-    </>
+    </div>
   );
 }
 
