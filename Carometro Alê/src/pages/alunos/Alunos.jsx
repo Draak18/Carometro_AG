@@ -1,6 +1,7 @@
 import "./Alunos.css";
 import Header2 from "../../components/header/Header2.jsx";
 import PesquisaComponente from "../../components/pesquisaComponente/PesquisaComponente.jsx";
+import Gradiente from "../../images/gradiente.png";
 
 function Alunos() {
   return (
@@ -10,36 +11,80 @@ function Alunos() {
         <div className="tituloAlunos">
           <h1>IDEV2</h1>
         </div>
-        <PesquisaComponente/>
+        <PesquisaComponente />
       </div>
       <div className="rostoAlunos">
-        
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
-        </div>
-        <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
       </div>
     </div>
@@ -47,7 +92,3 @@ function Alunos() {
 }
 
 export default Alunos;
-
-
-
-
