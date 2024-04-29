@@ -1,7 +1,7 @@
 import "./Alunos.css";
 import Header2 from "../../components/header/Header2.jsx";
 import lupaImg from "../../images/lupa.png";
-import Rosto from "../../images/rosto.png"
+import Gradiente from "../../images/gradiente.png"
 
 
 function Alunos() {
@@ -20,33 +20,104 @@ function Alunos() {
         </div>
       </div>
       <div className="rostoAlunos">
-        
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
         </div>
         <div className="aluno">
-          <h1>iiiiiiiii</h1>
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente}  />
+          </div>
+          <div className="linha"></div>
         </div>
       </div>
     </div>
