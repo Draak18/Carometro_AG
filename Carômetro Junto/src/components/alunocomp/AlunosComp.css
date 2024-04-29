@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aluno{
+    margin-left: 10px;
+    width: 20vw;
+    height: 40vh;
+    background-color: azure;
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    align-items: flex-end;
+}
+.fotoDoAluno{
+    width:20vw;
+    height:40vh;
+    position: absolute;
+    display: flex;
+    z-index: 1 !important;
+}
+.linhaVermelha{
+    width: 100%;
+    height: 2vh;
+    background-color: #C70000;
+    z-index: 3 !important;
+}
+.fotoR{
+    width: 100%;
+    height: 100%;
+}
+.fotoG{
+    width:20vw;
+    height: 40vh;
+    z-index: 2 !important;
+}
+/* .informacoesDoAluno h2 h2{
+    margin-top: 3vh;
+    display: flex;
+    color: white;
+    z-index: 3;
+} */

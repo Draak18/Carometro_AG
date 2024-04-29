@@ -23,6 +23,7 @@
   margin-right: 6vh;
   background-color: #e0e0e0;
   border-radius: 4vh;
+  user-select: none;
 }
 
 .informacoes {
