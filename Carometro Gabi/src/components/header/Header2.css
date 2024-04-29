@@ -3,31 +3,31 @@
   src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
-header {
+.header2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 98.9vw;
   height: 8vh;
   background-color: #e0e0e0;
 }
 
-header div {
+.header2 div {
   display: flex;
   gap: 40px;
   padding-left: 20px;
 }
 
-header div a {
+.header2 div a {
   font-family: "Montserrat";
   font-size: 17px;
   text-decoration: none;
   color: black;
 }
 
-header div a:hover,
-header div a:visited,
-header div a:active {
+.header2 header div a:hover,
+.header2 header div a:visited,
+.header2 header div a:active {
   text-decoration: underline;
   color: black;
 }

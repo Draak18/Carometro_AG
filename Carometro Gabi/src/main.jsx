@@ -1,9 +1,17 @@
+// Importa as funcionalidades do React e Router
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import React from "react";
-import Home from "./pages/home/Home";
+import MainRoutes from "./routes.jsx";
+
+// Importa o CSS global
 import "./style/Global.css";
 
-import MainRoutes from "./routes";
-
-ReactDOM.createRoot(document.getElementById("root")).render(<Home />);
+// Cria uma raiz para a aplicação React no DOM
+ReactDOM.createRoot(document.getElementById("root")).render(
+  // Encapsula a aplicação para habilitar o roteamento
+  <BrowserRouter>
+    {/* MainRoutes contém as rotas principais da aplicação */}
+    <MainRoutes />
+  </BrowserRouter>
+);

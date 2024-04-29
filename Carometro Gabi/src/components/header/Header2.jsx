@@ -2,12 +2,12 @@
 import { Link } from "react-router-dom";
 
 // Import de CSS
-import "./Header.css";
+import "./Header2.css";
 import Logo from "./../../images/logoSenai.jfif";
 
-function Header() {
+function Header2() {
   return (
-    <header>
+    <header className="header2">
       <div>
         {/* Cada `Link` representa um link para uma rota específica na aplicação */}
         <Link to="/">Home</Link>
@@ -22,4 +22,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header2;

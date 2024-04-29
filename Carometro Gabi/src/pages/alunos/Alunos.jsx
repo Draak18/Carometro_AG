@@ -1,5 +1,5 @@
 import "./Alunos.css";
-import Header from "../../components/header/Header.jsx";
+import Header2 from "../../components/header/Header2.jsx";
 import lupaImg from "../../images/lupa.png";
 import Rosto from "../../images/rosto.png"
 
@@ -7,9 +7,9 @@ import Rosto from "../../images/rosto.png"
 function Alunos() {
   return (
     <div>
-      <Header />
+      <Header2 />
       <div className="tituloPesquisa">
-        <div className="titulo">
+        <div className="tituloAlunos">
           <h1>IDEV2</h1>
         </div>
         <div className="pesquisa">
