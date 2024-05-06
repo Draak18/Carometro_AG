@@ -24,7 +24,7 @@ function Turmas() {
                 <img src={Lobao} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">3° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">3° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Desenvolvimento de Sistemas
                   para estudantes do terceiro ano. Clique no botão abaixo para
@@ -42,7 +42,7 @@ function Turmas() {
                 <img src={Fenix} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">2° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">2° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Desenvolvimento de Sistemas
                   para estudantes do segundo ano. Clique no botão abaixo para
@@ -60,7 +60,7 @@ function Turmas() {
                 <img src={FDS} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">1° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">1° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Desenvolvimento de Sistemas
                   para estudantes do primeiro ano. Clique no botão abaixo para
@@ -83,7 +83,7 @@ function Turmas() {
                 <img src={Tigroes} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">3° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">3° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Eletroeletrônica e Mecânica
                   para estudantes do terceiro ano. Clique no botão abaixo para
@@ -101,7 +101,7 @@ function Turmas() {
                 <img src={Pereca} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">2° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">2° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Eletroeletrônica e Mecânica
                   para estudantes do segundo ano. Clique no botão abaixo para
@@ -119,7 +119,7 @@ function Turmas() {
                 <img src={FDS} alt="" />
               </div>
               <div className="textinhoDasSalas">
-                <p id="tituloDoTexto">1° ANO - ENSINO MÉDIO</p>
+                <p id="tituloDoTexto">1° ANO DO ENSINO MÉDIO</p>
                 <p id="textoNormal">
                   Saiba mais sobre nossa turma de Eletroeletrônica e Mecânica
                   para estudantes do primeiro ano. Clique no botão abaixo para

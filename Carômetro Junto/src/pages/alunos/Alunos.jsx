@@ -2,7 +2,6 @@ import "./Alunos.css";
 import Header2 from "../../components/header/Header2.jsx";
 import PesquisaComponente from "../../components/pesquisaComponente/PesquisaComponente.jsx";
 import Gradiente from "../../images/gradiente.png";
-import AlunosComp from "../../components/alunocomp/AlunosComp.jsx";
 
 function Alunos() {
   return (
@@ -14,39 +13,79 @@ function Alunos() {
         </div>
         <PesquisaComponente />
       </div>
-      <div className="rostoAlunos">    
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
-        <AlunosComp/>
+      <div className="rostoAlunos">
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">A</div>
+          </div>
+        </div>
       </div>
     </div>
   );

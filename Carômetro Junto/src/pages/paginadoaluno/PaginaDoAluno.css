@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+.separarPagina {
+  background-color: azure;
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.informacoesPaginaAluno {
+  font-family: "Montserrat";
+  width: 55vw;
+  height: 80vh;
+  border-radius: 4px;
+  border: 0;
+  background-color: blueviolet;
+}
+
+.fotoPaginaAluno {
+  width: 20vw;
+  height: 40vh;
+  background-color: blue;
+}

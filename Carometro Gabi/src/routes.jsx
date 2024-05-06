@@ -8,6 +8,7 @@ import Turmas from "./pages/turma/Turmas";
 import Login from "./pages/login/Login";
 import Alunos from "./pages/alunos/Alunos";
 import Cadastro from "./pages/cadastro/Cadastro";
+import PaginaDoAluno from "./pages/paginadoaluno/PaginaDoAluno"
 
 // Define o componente MainRoutes
 function MainRoutes() {
