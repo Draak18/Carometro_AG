@@ -94,3 +94,27 @@
   height: 85vh;
   z-index: 2;
 }
+
+@media screen and (max-width: 1200px) {
+  .celularSENAI {
+    width: 40vh;
+    margin-right: 8vh;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .celularSENAI {
+    display: none;
+  }
+  .caixaLogin{
+    width: 95vh;
+    height: 85vh;
+    margin-right: 0;
+  }
+  
+  .fundo{
+    justify-content: center;
+  }
+}
+
