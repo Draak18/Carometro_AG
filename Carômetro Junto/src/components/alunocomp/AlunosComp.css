@@ -1,24 +1,22 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-/* ::-webkit-scrollbar {
-    display: none;
-} */
+.rostoAlunos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-@font-face {
-    font-family: "Montserrat-Normal";
-    src: url(../../components/fonts/Montserrat/Montserrat-Medium.ttf);
-}
-
-
-
-.aluno {
+.aluno{
     margin-left: 10px;
     margin-bottom: 15px;
     width: 20vw;
     height: 40vh;
+    background-image:url("../../images/rosto.png");
     background-size: 100%;
     display: flex;
     margin-top: 20px;
@@ -26,61 +24,26 @@
     z-index: 0;
     align-items: flex-end;
 }
-
-.linhaVermelha {
+.sombra img{
+    width: 20vw;
+    height: 40vh;
+    filter: opacity(65%);
+    z-index: 1;
+}
+.linha{
     width: 20vw;
     height: 1vh;
     background-color: #DB261D;
     position: absolute;
-    z-index: 4 !important;
+    z-index: 2;
 }
 
-.fotoDoAluno {
-    width: 20vw;
-    height: 40vh;
-    position: relative;
-    display: flex;
-    z-index: 1 !important;
-    align-items: flex-end;
-}
-
-.fotoR {
-    width: 20vw;
-    height: 40vh;
-    z-index: 2 !important;
+.nomeAluno{
+    font-size: 25px;
+    color:white;
+    z-index: 3;
     position: absolute;
 }
+.turmaAluno{
 
-.fotoG {
-    width: 20vw;
-    height: 40vh;
-    filter: opacity(85%);
-    position: relative;
-    z-index: 3 !important;
-}
-
-.informacoesDoAluno {
-    font-family: "Montserrat-Normal";
-    width: 20vw;
-    height: 15vh;
-    position: absolute;
-    z-index: 5 !important;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    margin-bottom: 10px;
-    margin-left: 6px;
-}
-
-.nome {
-    font-size: 12px;
-    color: white;
-    z-index: 6 !important;
-
-}
-
-.turma {
-    font-size: 13px;
-    color: white;
-    z-index: 6 !important;
 }

@@ -1,24 +1,21 @@
 import Header from "../../components/header/Header.jsx";
 import "../alunocomp/AlunosComp.css";
-import Rosto from "../../images/rosto.png";
 import Gradiente from "../../images/gradiente.png";
 
 
 function AlunosComp() {
   return (
     <div>
-      <div className="aluno">
-        <div className="fotoDoAluno">
-          <img className="fotoR" src={Rosto} />
-        </div>
-        <div className="gradienteFoto">
-          <img className="fotoG" src={Gradiente}  />
-        </div>
-        <div className="informacoesDoAluno">
-          <div className="nome"><h1>Alexandre Magalhães Deboletta</h1></div>
-          <div className="turma"><h3>IDEV2</h3></div>
-        </div>
-        <div className="linhaVermelha">
+      <div className="rostoAlunos">
+        <div className="aluno">
+          <div className="sombra">
+            <img src={Gradiente} />
+          </div>
+          <div className="linha"></div>
+          <div className="textos">
+            <div className="nomeAluno">Gabrielle de Lima Quinquio</div>
+            <div className="turmaAluno">IDEV2</div>
+          </div>
         </div>
       </div>
     </div>
