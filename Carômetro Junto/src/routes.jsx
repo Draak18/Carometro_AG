@@ -9,6 +9,7 @@ import Login from "./pages/login/Login";
 import Alunos from "./pages/alunos/Alunos";
 import Cadastro from "./pages/cadastro/Cadastro";
 import PaginaDoAluno from "./pages/paginadoaluno/PaginaDoAluno";
+import AlunosComp from "./components/alunocomp/AlunosComp";
 
 // Define o componente MainRoutes
 function MainRoutes() {
@@ -22,6 +23,7 @@ function MainRoutes() {
       <Route path="/alunos" element={<Alunos />} />
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/paginadoaluno" element={<PaginaDoAluno />} />
+      <Route path="/alunocomp" element={<AlunosComp/>} />
     </Routes>
   );
 }

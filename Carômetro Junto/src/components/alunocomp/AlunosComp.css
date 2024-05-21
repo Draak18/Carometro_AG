@@ -37,13 +37,29 @@
     position: absolute;
     z-index: 2;
 }
+.textos{
+    z-index: 5;
 
+}
 .nomeAluno{
-    font-size: 25px;
+    width: 283px;
+    font-size: 23px;
     color:white;
-    z-index: 3;
-    position: absolute;
+    
 }
 .turmaAluno{
+ color: white;
+ text-shadow: 0 0 10px #fff;
+}
 
+.textos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#baseAlunos:hover {
+    background-color: rgba(0, 0, 0, 0.493);
 }

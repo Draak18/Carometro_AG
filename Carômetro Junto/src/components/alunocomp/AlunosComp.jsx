@@ -1,20 +1,23 @@
-import Header from "../../components/header/Header.jsx";
 import "../alunocomp/AlunosComp.css";
 import Gradiente from "../../images/gradiente.png";
+import { Link } from "react-router-dom";
+
 
 
 function AlunosComp() {
   return (
     <div>
       <div className="rostoAlunos">
-        <div className="aluno">
+        <div  class='aluno'>
           <div className="sombra">
-            <img src={Gradiente} />
+            <Link to="/paginadoaluno">
+              <img id="baseAlunos"src={Gradiente} />
+            </Link>
           </div>
           <div className="linha"></div>
           <div className="textos">
-            <div className="nomeAluno">Gabrielle de Lima Quinquio</div>
-            <div className="turmaAluno">IDEV2</div>
+            <span className="nomeAluno"><strong>Gabrielle de Lima Quinquio Deboletta</strong></span>
+            <span className="turmaAluno">IDEV2</span>
           </div>
         </div>
       </div>
