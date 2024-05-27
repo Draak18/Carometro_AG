@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .informacoesPaginaAluno {
@@ -34,9 +35,16 @@
   font-size: 50px;
 }
 
-.nome {
+.nome{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.tudo {
   display: flex;
   flex-direction: column;
+
 }
 
 .parte1{
@@ -52,18 +60,23 @@
 }
 .inputNormal{
   background-color: #8D8D8D;
-  width: 45vh;
+  width: 40vh; 
+    margin-left: 50px;
   height: 5vh;
   border-radius: 20px;
   border: none;
 }
 
-.robson{
+.espacamento{
+  width: 55vh;
   display: flex;
   align-items: center;
-  margin: 5px;
+  margin: 15px;
+  justify-content: flex-end;
 }
-label{
-  margin-left: 10px;
-  margin-right: 3rem;
+
+#teste{
+  display: flex;
+  width: 10vh;
+  justify-content: flex-start;
 }

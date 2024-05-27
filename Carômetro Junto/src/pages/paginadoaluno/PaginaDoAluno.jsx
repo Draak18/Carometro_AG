@@ -12,48 +12,51 @@ function PaginaDoAluno() {
             <img src={RostoA} />
           </div>
           <div className="informacoesPaginaAluno">
-            <div class="nome">
+            <div class="tudo">
+            <div className="nome">
               <h1>Gabrielle de Lima Quinquio</h1>
+            </div>
               <div className="separarInformacao">
                 <div className="parte1">
-                  <div className="robson">
-                  <label>Email:</label>
+                  <div className="espacamento">
+                  <label id="teste">Email:</label>
                   <input className="inputNormal" type="text" />
                   </div>
-                  <div className="robson">
-                  <label>CPF:</label>
+                  <div className="espacamento">
+                  <label id="teste">CPF:</label>
                   <input className="inputNormal" type="text" />
                   </div>
-                  <div className="robson">
-                  <label>Celular:</label>
+                  <div className="espacamento">
+                  <label id="teste">Celular:</label>
                   <input className="inputNormal" type="text" />
                   </div>
-                  <div className="robson">
-                  <label>CEP:</label>
+                  <div className="espacamento">
+                  <label id="teste">CEP:</label>
                   <input className="inputNormal" type="text" />
                   </div>
-                  <div className="robson">
-                  <label>Data de nascimento:</label>
-                  <input className="inputDiferente" type="text" />
+                  <div className="espacamento">
+                  <label id="teste">Data de Nascimento:</label>
+                  <input className="inputNormal" type="text" />
                   </div>  
                 </div>
                 <div className="parte2">
-                    <div>
-                      <label>Bairro:</label>
+                    <div className="espacamento">
+                      <label id="teste">Bairro:</label>
                       <input className="inputNormal" type="text" />
                     </div>
-                    <div>
-                      <label>Estado:</label>
+                    <div className="espacamento">
+                      <label id="teste">Estado:</label>
                       <input className="inputNormal" type="text" />
                     </div>
-                    <div>
-                      <label>Cidade:</label>
+                    <div className="espacamento">
+                      <label id="teste">Cidade:</label>
                       <input className="inputNormal" type="text" />
                     </div>
-                    <div>
-                      <label>Rua:</label>
+                    <div className="espacamento">
+                      <label id="teste">Rua:</label>
                       <input className="inputNormal" type="text" />
                     </div>
+                    <div className="botao"></div>
                 </div>
               </div>
             </div>
