@@ -39,7 +39,19 @@ function PaginaDoAluno() {
                 </div>
                 <div className="parte2">
                     <div>
-                      <label>teste</label>
+                      <label>Bairro:</label>
+                      <input className="inputNormal" type="text" />
+                    </div>
+                    <div>
+                      <label>Estado:</label>
+                      <input className="inputNormal" type="text" />
+                    </div>
+                    <div>
+                      <label>Cidade:</label>
+                      <input className="inputNormal" type="text" />
+                    </div>
+                    <div>
+                      <label>Rua:</label>
                       <input className="inputNormal" type="text" />
                     </div>
                 </div>
