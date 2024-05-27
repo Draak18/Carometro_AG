@@ -1,10 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 @font-face {
   font-family: "Montserrat";
   src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
 .separarPagina {
-  background-color: #1d1d1d;
+  background-color: #1D1D1D;
   width: 100vw;
   height: 92vh;
   display: flex;
@@ -12,28 +16,54 @@
   align-items: center;
 }
 
-.caixaInformacao {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  align-items:center;
-  width: 170vh;
-  height: 85vh;
-  margin-right: 6vh;
-  background-color: #e0e0e0;
-  border-radius: 4vh;
-  user-select: none;
-}
 .informacoesPaginaAluno {
   font-family: "Montserrat";
-  width: 55vw;
+  width: 58vw;
   height: 80vh;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 0;
+  background-color: #E0E0E0;
+  display: flex;
+  justify-content: center;
+}
+.separarInformacao{
+  display: flex;
 }
 
-.fotoPaginaAluno {
-  width: 30vw;
-  height: 60vh;
-  background-color: blue;
+.informacoesPaginaAluno h1{
+  font-size: 50px;
+}
+
+.nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.parte1{
+  display: flex;
+  flex-direction: column;
+  width: 29vw;
+}
+
+.parte2{
+  display: flex;
+  flex-direction: column;
+  width: 29vw;
+}
+.inputNormal{
+  background-color: #8D8D8D;
+  width: 45vh;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+}
+
+.robson{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+label{
+  margin-left: 10px;
+  margin-right: 3rem;
 }
