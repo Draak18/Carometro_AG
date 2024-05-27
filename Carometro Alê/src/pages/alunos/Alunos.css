@@ -89,16 +89,5 @@ input:focus {
   z-index: 0;
   align-items: flex-end;
 }
-.sombra img{
-  width: 20vw;
-  height: 40vh;
-  filter: opacity(65%);
-  z-index: 1;
-}
-.linha{
-  width: 20vw;
-  height: 1vh;
-  background-color: #DB261D;
-  position: absolute;
-  z-index: 2;
-}
+
+
