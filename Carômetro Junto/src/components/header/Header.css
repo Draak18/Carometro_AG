@@ -3,6 +3,10 @@
   src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
+header a {
+  color: black!important;
+}
+
 header {
   display: flex;
   align-items: center;

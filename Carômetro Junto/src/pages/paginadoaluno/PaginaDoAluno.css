@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,15 +6,18 @@
   font-family: "Montserrat";
   src: url(../../components/fonts/Montserrat/Montserrat-Bold.ttf);
 }
+@font-face {
+  font-family: "MontserratL";
+  src: url(../../components/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
 
 .separarPagina {
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   width: 100vw;
   height: 92vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .informacoesPaginaAluno {
@@ -23,60 +26,134 @@
   height: 80vh;
   border-radius: 20px;
   border: 0;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.separarInformacao{
+.separarInformacao {
   display: flex;
 }
 
-.informacoesPaginaAluno h1{
+.informacoesPaginaAluno h1 {
   font-size: 50px;
 }
 
-.nome{
+.nome {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
+
 .tudo {
   display: flex;
   flex-direction: column;
-
 }
 
-.parte1{
+.parte1 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 29vw;
 }
 
-.parte2{
+.parte2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 29vw;
 }
-.inputNormal{
-  background-color: #8D8D8D;
-  width: 40vh; 
-    margin-left: 50px;
+
+.inputNormal {
+  background-color: #8d8d8d;
+  color: rgba(255, 255, 255, 0.755);
+  width: 40vh;
   height: 5vh;
   border-radius: 20px;
   border: none;
+  padding-left: 15px;
 }
 
-.espacamento{
-  width: 55vh;
-  display: flex;
-  align-items: center;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputNormal,
+::-webkit-input-placeholder,
+:focus {
+  font-family: "Montserrat";
+  color: rgba(255, 255, 255, 0.755);
+  outline: none;
+}
+
+.espacamento {
   margin: 15px;
-  justify-content: flex-end;
 }
 
-#teste{
+.espacamento label {
+  margin-left: 15px;
+}
+
+#teste {
   display: flex;
-  width: 10vh;
-  justify-content: flex-start;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  padding: 10px;
+}
+
+.botaoPaginaAluno button{
+  color: white;
+  width: 25vh;
+  height: 4vh;
+  background-color: #db261d;
+  font-family: "Montserrat";
+  font-size: 14px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 44px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.boxCard {
+  width: 50vw;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: #db261d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.botaoFechar {
+  font-family: "MontserratL";
+  width: 5vw;
+  height: 4vh;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botaoFechar:hover {
+  background-color: #ccc;
 }
