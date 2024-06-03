@@ -299,7 +299,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .inputOcorrencia{
     background-color: #8d8d8d;
     color: rgba(255, 255, 255, 0.755);
-    width: 40vh;
+    width: 50vh;
     height: 5vh;
     border-radius: 20px;
     border: none;
@@ -314,7 +314,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: none;
     font-size: 16px;
     cursor: pointer;
-    margin-right: 8vh;
+    margin-right: 6vh;
     margin-top: 2vh;
   }
   .observacao{
@@ -325,12 +325,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   .inputObservacao{
     background-color: #8d8d8d;
     color: rgba(255, 255, 255, 0.755);
-    width: 80vh;
+    width: 95vh;
     height: 15vh;
     border-radius: 20px;
     border: none;
     padding-left: 15px;
   
+  }
+  .formularioOcorrencia{
+    margin-bottom: 5vh;
   }
   .inputbotao{
     font-family: "Montserrat";
@@ -425,7 +428,7 @@ body{
   }
   .tudo {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;       
     
   }
   .nome {
@@ -465,8 +468,8 @@ body{
   .inputOcorrencia{
     background-color: #8d8d8d;
     color: rgba(255, 255, 255, 0.755);
-    width: 40vh;
-    height: 5vh;
+    width: 30vh;
+    height: 4vh;
     border-radius: 20px;
     border: none;
     padding-left: 15px;
@@ -474,8 +477,8 @@ body{
   .inputObservacao{
     background-color: #8d8d8d;
     color: rgba(255, 255, 255, 0.755);
-    width: 75vh;
-    height: 10vh;
+    width: 70vh;
+    height: 15vh;
     border-radius: 20px;
     border: none;
     padding-left: 15px;
@@ -509,6 +512,13 @@ body{
     margin-top: -1vh;
   }
   .formularioOcorrencia{
-    margin-bottom: 15vh;
+    margin-bottom: 1vh;
+  }
+  .labelOcorrencia{
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: black;
+    justify-content: flex-start;
+    margin: 0.5vh;
   }
 }
