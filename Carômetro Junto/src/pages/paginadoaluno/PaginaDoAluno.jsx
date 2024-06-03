@@ -85,8 +85,48 @@ function PaginaDoAluno() {
                   className="botaoFechar"
                   onClick={() => setShowCard(false)}
                 >
-                  FECHAR
+                  <div className="inputbotao">FECHAR</div>
                 </button>
+                <div className="ocorrencia">
+                <div className="inf">
+                    <form className="formularioOcorrencia">
+                      <div className="dataOcorrencia">
+                        <label className="labelOcorrencia" >Data:</label>
+                        <input type="date" className="inputOcorrencia" />
+                      </div>
+                      <div className="horarioOcorrencia">
+                        <label className="labelOcorrencia">Horário:</label>
+                        <input type="number" className="inputOcorrencia" />
+                      </div>
+                      <div className="professorOcorrencia">
+                        <label className="labelOcorrencia">Professor:</label>
+                        <input type="text" className="inputOcorrencia" />
+                      </div>
+                      <div className="motivoOcorrencia">
+                        <label className="labelOcorrencia">Motivo da ocorrência:</label>
+                        <input type="text" className="inputOcorrencia" />
+                      </div>
+                    </form>
+                  </div>
+                  <div className="foto_botao">
+                  <div className="fotoOcorrencia">
+                      <div className="fotoOcorrencia2">
+                        <img src={RostoA}  />
+                      </div>
+                    </div>
+                    <div className="botaoEnviar">
+                      <button className="botaoEnviar2" >
+                      <div className="inputbotao">ENVIAR</div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="observacao">
+                  <form className="formularioObservacao">
+                    <label className="labelOcorrencia">Observações:</label>
+                    <input type="text" className="inputObservacao" />
+                  </form>
+                </div>
               </div>
             }
           </div>
